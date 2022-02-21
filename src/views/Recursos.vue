@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-col id="recursos" :style="cssProps">
+    <v-col id="recursos">
       <v-app>
         <v-card>
           <v-card-title>
@@ -11,10 +11,13 @@
               label="Buscar"
               single-line
               hide-details
-              
             ></v-text-field>
+            <v-row>
+              <v-col><v-btn color="success">boton</v-btn></v-col>
+            </v-row>
           </v-card-title>
           <v-data-table
+            color="primario"
             :headers="headers"
             :items="desserts"
             :search="search"

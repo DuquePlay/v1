@@ -20,9 +20,13 @@
                 align-self="center"
                 style="padding: 40px; background-color: white"
               >
-                <table class="table_login">
+                <table class="table_login d-flex flex-column">
                   <tr>
-                    <td colspan="2" style="text-align: center">
+                    <td
+                      class="d-flex flex-column"
+                      colspan="2"
+                      style="text-align: center"
+                    >
                       <img src="../assets/logo_fundacion_donde.png" />
                       <v-spacer style="margin-bottom: 50px"> </v-spacer>
                     </td>
@@ -53,7 +57,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="d-flex flex-column">
                       <v-btn
                         color="primario"
                         rounded
